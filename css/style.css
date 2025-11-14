@@ -1,79 +1,67 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", Arial, sans-serif;
-  background: linear-gradient(135deg, #4f7cff, #70c8ff);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 0;
+    padding: 0;
+    background: #e7f0ff;
+    font-family: Arial, sans-serif;
 }
 
-.container {
-  width: 100%;
-  max-width: 450px;
-}
-
-.box {
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+.app {
+    max-width: 380px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
 
 h1 {
-  text-align: center;
-  color: white;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 input,
 select {
-  width: 100%;
-  padding: 12px;
-  font-size: 16px;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  transition: 0.3s;
-}
-
-input:focus,
-select:focus {
-  border-color: #4f7cff;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #b6c6ff;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 button {
-  width: 100%;
-  padding: 12px;
-  background: #4f7cff;
-  color: white;
-  font-size: 18px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s;
+    width: 100%;
+    padding: 14px;
+    background: #4f7cff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 button:hover {
-  background: #3657d4;
+    background: #3b5ed1;
 }
 
 #resultado {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 22px;
-  font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.verde { color: green; }
-.vermelho { color: red; }
-.laranja { color: orange; }
-
-@media (max-width: 500px) {
-  .box {
-    margin: 20px;
-    padding: 20px;
-    margin-top: 0;
-  }
+#parcelas {
+    margin-top: 10px;
+    font-size: 18px;
 }
+
+.green { color: green; }
+.red { color: red; }
+.orange { color: rgb(255, 145, 0); }
+.blue { color: blue; }
