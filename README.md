@@ -1,4 +1,4 @@
-# Calculadora de Pagamentos Simples 💰
+# Calculadora de Pagamentos Simples
 <li> Olá! Este é o meu projeto de Calculadora de Pagamentos, que eu fiz para aprender a usar HTML, CSS e JavaScript juntos de forma prática!
 
 A ideia é simples: você coloca o valor de um produto e escolhe a forma de pagamento, e o programa calcula na hora o preço final e as parcelas, aplicando descontos ou juros.
